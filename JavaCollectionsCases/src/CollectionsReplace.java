@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class CollectionsReplace {
+//16
+	public static void main(String[] args) {
+		List<String> list = Arrays.asList("one Two three Four five six one three Four".split(" "));
+		System.out.println("List :"+list);
+		Collections.replaceAll(list, "one", "1");
+		System.out.println("replaceAll: " + list);
+	}
+
+}
